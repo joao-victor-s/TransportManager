@@ -1,4 +1,5 @@
-# Arquivos de compilação
+# Arquivos de compilacao
+/build/
 x64/
 x86/
 Debug/
@@ -8,23 +9,35 @@ Release/
 *.dll
 *.lib
 *.pdb
+*.ilk
+*.idb
 
-# Configurações do Visual Studio
+# Diretorios de saida gerados pelo CMake
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Configuracoes do Visual Studio
 .vs/
 .vscode/
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj
 
-# Arquivos temporários
+# Arquivos temporarios
 *.log
 *.tmp
-*.user
+*.tlog
 *.suo
 *.ipch
-*.idb
-*.tlog
-
-# Outros
-*.cache
-*.ncb
 *.sdf
 *.opensdf
-*.vcxproj.user
+
+# Outros arquivos e caches
+*.cache
+*.ncb
+*.lock
+*.db
+*.recipe
