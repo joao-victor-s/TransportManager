@@ -1,6 +1,4 @@
-# TransportManager
-
-# 🚚💻 Desafio Avançado: Sistema de Gerenciamento de Transportes em C++ 🚀
+# Desafio: Sistema de Gerenciamento de Transportes em C++ 🚀
 
 Este desafio foi desenvolvido para praticar conceitos avançados de **Programação Orientada a Objetos (POO)** em C++, incluindo **herança de classes**, **polimorfismo**, **métodos virtuais** e **padrões de design**.
 
